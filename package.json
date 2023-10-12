@@ -1,12 +1,12 @@
 {
   "name": "react-todo-app",
   "version": "1.0.0",
-  "description": "A simple todo app using react , mongodb, express and node.js",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "npm start --prefix client",
+    "client": "npm start --prefix client -ignore client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
   "author": "",
